@@ -17,6 +17,7 @@ Note: requires `docker login`
 
 ## Run image
 `$ docker run --rm -it --name=gtop --net="host" --pid="host" macabees/gtop`
+
 (Note: assigns the 'net' and 'pid' options to the container to access the metrics on the host machine.)
 
 ## Help
